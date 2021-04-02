@@ -18,5 +18,5 @@ Precision
 
 Тестирование производилось в следующем окружении:
 
-Windows 7
-IntelliJ IDEA Community Edition 2020.3.3
+* Windows 7
+* IntelliJ IDEA Community Edition 2020.3.3
