@@ -6,17 +6,25 @@ Precision
 
 На тестирование затрачено: 1 (один) час
 
-В результате тестирования выявлены следующие дефекты:
-* дефектов нет
+# В результате тестирования выявлены следующие дефекты:
+*   [Неверный подсчёт бонусов клиента #1](https://github.com/Maksim-Pat/2DZ-2zadanie/issues/1)
 
-В процессе тестирования использовались следующие артефакты*:
-* код https://skr.sh/s7N0lcUigQi
+# В процессе тестирования использовались следующие артефакты:
+* [Домашнее задание к занятию «1.2. Программирование на Java: переменные, операторы, работа с отладчиком»](https://github.com/netology-code/javaqa-homeworks/tree/master/programming) 
+* IntelliJ IDEA Community Edition 2020.3.3
 
 
-В качестве тестовых данных использовались данные https://github.com/netology-code/javaqa-homeworks/tree/master/programming:
-* https://skr.sh/s7NhDh9VfZf
+# В качестве тестовых данных использовались данные:
+```public class Main {
+    public static void main(String[] args) {
+        double regularBonus = 0.3;
+        double specialBonus = 0.6;
+        double totalBonus = regularBonus + specialBonus;
+        System.out.println(totalBonus);
+    }}
+```
 
-Тестирование производилось в следующем окружении:
+# Тестирование производилось в следующем окружении:
 
 * Windows 7
 * IntelliJ IDEA Community Edition 2020.3.3
